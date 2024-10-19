@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>New Pay - Registr</title>
+</head>
+
+<body>
+    <section id="section-main">
+        <div class="top_name container">
+            <p><a href="newPay.html">New Pay</a></p>
+        </div>
+        <div class="form-box">
+            <div class="form-value">
+                <form id="registr_form">
+                    <h1>Регистрация</h1>
+                    <p id="error_text" style="color: red;"></p>
+                    <div class="inputbox">
+                        <img src="./images/email.png" alt="">
+                        <input id="email_field" type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <img src="./images/password.png" alt="">
+                        <input id="password_field" type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="inputbox">
+                        <input id="name_field" type="text" required>
+                        <label for="">Name</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Запомнить меня <a href="#">Забыл пароль ?</a></label>
+                    </div>
+                    <button>Войти</button>
+                    <div class="registr">
+                        <a href="index.html">Аккаунт уже существует?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/index/regisetr.js"></script>
+
+</body>
+
+</html>

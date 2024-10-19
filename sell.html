@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Подробное описание товара - NewPay</title>
+    </head>
+
+    <body>
+        <header></header>
+
+        <section id="sell_section">
+            <div class="main_sell_section container">
+                <div class="sell_block_main">
+                    <h1>На этой странице вы можете разместить своё
+                        предложение</h1>
+                </div>
+                <hr class="main_support_hr">
+                <form id="add_form" class="proposal">
+                    <div class="proposal_name">
+                        <h2>Добавление предложения</h2>
+                    </div>
+                    <div class="form_group">
+                        <div class="type_game">
+                            <label class="control_lable">ВЫБЕРИТЕ ИГРУ</label>
+                        </div>
+                        <select id="block__games"
+                            class="form_control box-s-effects"
+                            name="id_product">
+                        </select>
+                    </div>
+                    <div class="main-form">
+                        <div class="name-group">
+                            <label class="control_lable_too">НАЗВАНИЕ
+                                ОБЪЯВЛЕНИЯ</label>
+                        </div>
+                        <div class="input_form_text">
+                            <input required name="name" id="name_inp"
+                                class="input_form bg box-s-effects"
+                                type="text" maxlength="80">
+                        </div>
+                        <div class="input_form_text">
+                            <label for>
+                                ФОТО ВАШЕГО ОБЪЯВЛЕНИЯ <br>
+                                <input id="inputFile" required name="image"
+                                    type="file">
+                            </label>
+                        </div>
+                        <div class="description_info_top">
+                            <div class="description-form">
+                                <label class="control_lable_too">ПОДРОБНОЕ
+                                    ОПИСАНИЕ</label>
+                            </div>
+                            <div class="description-form_main">
+                                <textarea name="description"
+                                    class="detailed_description bg box-s-effects"
+                                    rows="7" maxlength="500" placeholder="Введите ваше описание">У данного товара нет Подробного описания...</textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="money">
+                        <div class="money_lable">
+                            <label class="money_lable_form">ЦЕНА ЗА 1
+                                ШТ.</label>
+                        </div>
+                        <div class="money_input">
+                            <input id="price_inp" required type="number" max="1000000" name="price"
+                                class="money_many">
+                        </div>
+                    </div>
+                    <div class="form_group">
+                        <div class="type_game">
+                            <label class="control_lable">ВЫБЕРИТЕ ВАЛЮТУ</label>
+                        </div>
+                        <select id="block__games"
+                            class="form_control box-s-effects"
+                            name="valute">
+                            <option value="руб">Рубль</option>
+                            <option selected value="$">Доллар</option>
+                        </select>
+                    </div>
+                    <div class="btn_buttom">
+                        <button class="btn_form">Сохранить</button>
+                    </div>
+                </form>
+            </section>
+
+
+            <footer class="footer_block container" id="footer_section"></footer>
+
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+                crossorigin="anonymous">
+            </script>
+
+            <script src="assets/js/config.js"></script>
+            <script src="assets/js/functions.js"></script>
+            <script src="assets/js/componetns/header.js"></script>
+            <script src="assets/js/componetns/footer.js"></script>
+            <script src="assets/js/sell/sell.js"></script>
+
+        </body>
+
+    </html>

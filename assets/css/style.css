@@ -1,0 +1,1061 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Han+Sans&display=swap');
+
+* {
+    font-family: "Black Han Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(8, 8, 8, 0.966);
+}
+
+.col_white {
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#section-main {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(https://ngcmshak.ru/uploads/dsn/fe/72/001/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.top_name {
+    position: absolute;
+    margin-bottom: 700px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    background: linear-gradient(90deg, #0099fffa, #ff00d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px;
+    width: 310px;
+    border-bottom: 2px solid white;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: white;
+}
+
+.inputbox img {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget label a {
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+    color: rgb(0, 110, 255);
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    color: rgb(0, 110, 255);
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    color: rgb(0, 110, 255);
+}
+
+.registr {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registr p {
+    margin-top: 20px;
+}
+
+.registr a {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.registr a {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(57, 67, 255);
+}
+
+.nav-header {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 4px 35px rgb(0, 132, 255);
+}
+
+.navbar-header {
+    text-decoration: none;
+    background: linear-gradient(90deg, #0099fffa, #ff00d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.nav-header .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 30px;
+    padding-top: 5px;
+    margin-bottom: 0;
+    border: 1px solid rgba(234, 0, 255, 0.925);
+    border-radius: 5px;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 33px;
+    transition: all .1s ease-in-out;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.navbar-menu li a:hover {
+    background: linear-gradient(90deg, #0099fffa, #ff00d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+.btn-header a {
+    background: linear-gradient(90deg, #0099fffa, #ff00d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#exit {
+    background: linear-gradient(90deg, #0099fffa, #ff00d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.produkt-sale img {
+    align-items: center;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.produkt-sale img:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.container-wrapp {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 30px;
+    gap: 35px;
+}
+
+.produkt-sale h6 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.produkt-sale h6:hover {
+    color: rgb(0, 89, 255);
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+.game {
+    display: flex;
+    margin-top: 50px;
+}
+
+.game h4 {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.logo-game img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.logo-game img:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.game-img {
+    display: flex;
+    gap: 20px;
+}
+
+.logo-game a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-game a:hover {
+    color: rgb(0, 81, 255);
+}
+
+.logo-game p:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #282933;
+    height: 300px;
+    width: 100%;
+}
+
+.pay p {
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.img-pay {
+    margin-top: 50px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.img-pay img {
+    padding-top: 20px
+}
+
+/* Game-info-description */
+
+.info_game {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 4px 20px rgb(0, 132, 255);
+    border-radius: 20px;
+    background-image: url(https://baldezh.top/uploads/posts/2022-08/1659697617_44-funart-pro-p-fon-doti-krasivo-46.jpg);
+}
+
+.info_game img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 20px 50px;
+    box-shadow: 0 2px 20px rgb(255, 51, 0);
+}
+
+.description_info {
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.description_info h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* Services */
+
+.services-info h5 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.servic a {
+    text-decoration: none;
+    margin-right: 40px;
+    width: 100px;
+}
+
+.servic li {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 132, 255);
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    height: 30px;
+    padding: 3px;
+    font-weight: 600;
+}
+
+/* services-section */
+
+#services-section {
+    margin-bottom: 100px;
+}
+
+.section-tovar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 350px;
+    width: 100%;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.main-tovar-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.image_tovar_section {
+    width: 100%;
+    height: 400px;
+}
+
+.image_tovar_section {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.price_tovar_section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.description_tovar_section p {
+    word-wrap: break-word;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(245, 245, 245);
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(17, 0, 255);
+}
+
+/*Detailed_description*/
+
+.tovar-description {
+    padding: 40px;
+    background-color: rgb(3, 3, 3);
+    height: 700px;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 4px rgb(138, 187, 233);
+}
+
+.tovar-description h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tovar-description-info img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgb(34, 121, 252);
+}
+
+.tovar-description-main {
+    display: flex;
+    gap: 50px;
+}
+
+.tovar-description-info-text {
+    color: white;
+}
+
+.tovar-description-info-text h2 {
+    padding-bottom: 20px;
+}
+
+.tovar-description-info-text p {
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px rgb(34, 121, 252);
+    text-align: left;
+}
+
+.price-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-description {
+    margin: 40px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    box-shadow: 0 0 4px 2px rgb(138, 187, 233);
+}
+
+.price-info {
+    color: white;
+}
+
+.price-info p {
+    padding-top: 10px;
+    font-size: 19px;
+    color: #dfdfdf;
+}
+
+.btn-buy-tovar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 250px;
+    background-color: rgb(4, 0, 255);
+    box-shadow: 0 0 4px 2px rgb(138, 187, 233);
+    color: white;
+}
+
+.btn-buy-tovar:hover {
+    background-color: black;
+    transition: 0.4s;
+}
+
+.any-way {
+    color: white;
+}
+
+.any-way-card-img img {
+    max-width: 30px;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.bottom-text {
+    margin-top: 45px;
+    font-size: 16px;
+}
+
+.bottom-text a {
+    color: rgb(72, 128, 248);
+}
+
+
+
+.sceleton {
+    background-color: grey;
+    border-radius: 20px;
+    animation-name: sceleton;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.big_s {
+    width: 300px;
+    height: 300px;
+}
+
+.mid_s {
+    width: 150px;
+    height: 150px;
+}
+
+.smal_s {
+    width: 100px;
+    height: 100px;
+}
+
+.flex_s {
+    width: 100%;
+    height: 150px;
+}
+
+.flex_s_big {
+    width: 100%;
+    height: 500px;
+}
+
+.flex_s_little {
+    width: 100%;
+    height: 250px;
+}
+
+.flex_s_midel {
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+}
+
+.flex_s_smoall {
+    width: 20%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.flex_s_little_smoall {
+    width: 10%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+@keyframes sceleton {
+    0% {
+        background-color: grey;
+    }
+
+    33% {
+        background-color: rgb(205, 205, 205);
+    }
+
+    66% {
+        background-color: rgb(162, 162, 162);
+    }
+
+    100% {
+        background-color: grey;
+    }
+}
+
+/* Profile */
+
+.profile_block_img img {
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 2px #ffffff;
+    margin-bottom: 25px;
+}
+
+.profile_block {
+    color: white;
+    margin-top: 50px;
+}
+
+.name_profile h2 {
+    margin-bottom: 15px;
+}
+
+.date_start_profile {
+    color: rgb(100, 178, 255);
+}
+
+.date_start_profile h6 {
+    font-size: 12px;
+}
+
+.telegram_name_inp p {
+    margin: 15px 0;
+}
+
+.grayColor {
+    color: rgb(202, 202, 202);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tg_text {
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    border: none;
+}
+
+.btn-tg {
+    margin-top: 7px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 178, 255);
+    font-weight: 600;
+    font-size: 16px;
+    width: 100px;
+    height: 35px;
+    transition: 600ms;
+    margin-bottom: 100px;
+}
+
+.btn-tg:hover {
+	background: rgb(255, 255, 255);
+	color: rgb(100, 178, 255);
+}
+
+#your_tovar {
+    color: white;
+}
+
+.name_block {
+    text-align: center;
+}
+
+.name_block h2 {
+    margin-bottom: 10px;
+}
+
+
+.main_proposal {
+    margin-top: 60px;
+    border-radius: 20px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(238, 238, 238, 0.733);
+}
+
+
+/* support__section */
+.support_main {
+    color: white;
+}
+
+.support_main_section {
+    background-color: #3a96ff;
+    margin-bottom: 50px;
+    height: 430px;
+    max-width: 100%;
+}
+
+.support_request h2 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.main_support_hr {
+    padding: 0;
+    height: 0;
+    border: none;
+    box-shadow: 0 0 2px 1px rgb(255, 255, 255);
+}
+
+.ask_a_question {
+    display: flex;
+    margin: 50px auto;
+    text-align: center;
+    max-width: 200px;
+}
+
+.btn_support {
+    background-color: black;
+    color: white;
+    height: 70px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    font-size: 23px;
+    box-shadow: 0 0 1px 2px white;
+}
+
+.btn_footer {
+    background-color: rgb(52, 147, 255);
+    color: rgb(255, 255, 255);
+    height: 70px;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    box-shadow: 0 0 1px 2px rgb(150, 150, 150);
+    padding: 5px;
+}
+
+
+
+.ask_a_question :hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.name_knowledge_base h4 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 5px 2px rgb(255, 255, 255);
+}
+
+.wrapper {
+    margin-top: 40px;
+}
+
+.wrapper p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.wrapper a {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+/* sell_section */
+/*https://hotwalls.ru/wallpapers/temnyy_fon_v_melkuyu_tochku/download/1920x1080.jpg*/
+
+.sell_block_main h1 {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.proposal_name h2 {
+    margin: 50px 0px 20px 0px;
+}
+
+.proposal {
+    color: white;
+    display: block;
+}
+
+.control_lable {
+    color: rgb(194, 194, 194);
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.main-form {
+    margin-top: 50px;
+}
+
+.control_lable_too {
+    color: rgb(194, 194, 194);
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.box-s-effects {
+    box-shadow: #5f6166 0px 3px 20px 1px;
+}
+
+.form_control {
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+.input_form {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.description_info_top {
+    margin-top: 40px;
+}
+
+.detailed_description {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.bg {
+    background-color: #ffffff;
+}
+
+.money {
+    margin-top: 20px;
+}
+
+.money_lable_form {
+    color: rgb(211, 211, 211);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.money_many {
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn_input {
+    margin-top: 40px;
+    gap: 5px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.btn_buttom {
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.btn_form {
+    font-weight: 600;
+    background-color: rgba(44, 118, 255, 0.925);
+    border-radius: 5px;
+    color: white;
+}
+
+.btn_buttom :hover {
+    background-color: rgb(7, 73, 255);
+    transition: 0.2s;
+}
+
+
+/* Footer */
+
+#footer_section {
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(49, 49, 49, 0.671);
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 200px;
+}
+
+.footer-main {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.payment_methods h3 {
+    margin-bottom: 20px;
+}
+
+.footer-main-info h3 {
+    margin-top: 30px;
+}
+
+.footer-main-info p {
+    margin-top: 10px;
+    color: rgb(206, 206, 206);
+}
+
+.footer-main-info h3 {
+    margin-bottom: 20px;
+}
+
+.payment_methods img {
+    max-width: 100px;
+    max-height: 24px;
+}
+
+.info_footer {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer_bottom a {
+    margin-left: 20px;
+    color: rgb(77, 151, 255);
+}
+
+.footer-image img {
+    gap: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: rgb(132, 132, 132);
+    border-radius: 30px;
+}
+
+/* ruls */
+
+#General_ruls {
+    color: white;
+}
+
+.ruls_main_info {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.h1_ruls {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ruls_main_info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+
+.warning_main {
+    display: flex;
+    margin: 20px 0;
+    font-size: 16px;
+    color: rgb(207, 207, 207);
+    text-align: left;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.warning {
+    max-width: 500px;
+}
+
+.sanctions {
+    max-width: 500px;
+}
+
+.sell_respons {
+    margin-top: 45px;
+    font-weight: 600;
+}
